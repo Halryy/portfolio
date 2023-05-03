@@ -1,0 +1,190 @@
+/* Rules for sizing the icon. /
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+/ Rules for using icons as black on a light background. /
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+/ Rules for using icons as white on a dark background. */
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+
+body 
+{
+  width: 100%;
+  height: 100%;
+  background-color: #202020;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(https://preview.redd.it/meyxr3vnrpk51.jpg?width=1080&crop=smart&auto=webp&v=enabled&s=15a9296dee403d0183fbfb71208cc402b7171591);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#wallpaper{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+header {
+  display: flex;
+  align-content: flex-start;
+  align-self: center;
+  width: 100%;
+  height: 200px;
+  position: relative;
+  margin-bottom: 600px;
+  font-size: 50px;
+  top: 0;
+}
+
+header::selection {
+  background-color: transparent;
+}
+
+#menu
+{
+  cursor: pointer;
+  font-size: 60px;
+  display: flex;
+  margin-top: 0px;
+}
+
+#menu:hover {
+  font-size: 70px;
+}
+
+#menu::selection {
+  background-color: transparent;
+}
+
+* 
+{
+  outline: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.2s linear;
+  font-family: 'MinePlayer', sans-serif;
+}
+
+header
+{
+  display: flex;
+  flex-direction: start;
+  gap: 150px;
+}
+
+.lista-da-header
+{
+  display: flex;
+  position: relative;
+  list-style: none;
+  gap: 180px;
+  padding-left: 200px;
+  padding-top: 30px;
+  justify-content: center;
+  font-size: 50px;
+  color: #657ED4;
+  letter-spacing: 7px;
+}
+
+.sobrenosinteiro {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 500px;
+}
+
+#sobre, #projetos, #contato
+{
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  padding: 10px;
+  width: 700px;
+  height: 130px;
+  border-bottom: 3px solid #657ED4;
+}
+
+#sobre:target, #projetos:target, #contato:target
+{
+  background-color: #e2c35f;
+  padding: 10px;
+  padding-top: 2px;
+  border-radius: 10px;
+  border-bottom: 3px solid #006eff;
+}
+  
+#sobre:hover, #projetos:hover, #contato:hover
+{
+  background-color: #e2c35f;
+  padding: 12px;
+  padding-top: 2px;
+  border-radius: 10px;
+  border-bottom: 3px solid #006eff;
+}
+
+#sobre-nos
+{
+  align-self: center;
+}
+
+.sobre-nos {
+  padding-top: 80px;
+  display: flex;
+  position: relative;
+  gap: 70px;
+  flex-direction: column;
+}
+
+.sobre-nos > h1 
+{
+  color: white;
+  border-bottom: 3px solid #657ED4;
+  letter-spacing: 3px;
+}
+
+.sobre-nos > p 
+{
+  color: white;
+  width: 400px;
+  height: 220px;
+  align-self: center;
+  background-color: rgb(75, 42, 42);
+  border-top: 3px solid green;
+  border-radius: 7px;
+  text-align: center;
+  padding: 20px;
+  letter-spacing: 1px;
+  font-size: 20px;
+  padding-left: 16px;
+  box-shadow: 10px 7px 7px #101010;
+}
+
+#seta
+{
+  display: flex;
+  padding-top: 70px;
+  font-size: 100px;
+  cursor: pointer;
+}
+
+#seta::selection
+{
+  background-color: transparent;
+}
+
+
+
+
+
